@@ -1,6 +1,7 @@
 body{
     background-color: #eac4d5;
 }
+
 #contact {
     width: 100%;
     height: fit-content;
@@ -54,3 +55,52 @@ li {
     margin: 40px 0px;
 }
 
+.form {
+    border-radius: 4px;
+    text-align: center;
+    padding-bottom: 25px;
+    margin:auto;
+}
+
+form {
+    width: 400px;
+}
+
+.form-element {
+    font-weight: bold;
+    text-align: left;
+    padding: 12px 15px;
+}
+
+input[type="text"],input[type="email"]{
+    width: 50%;
+    float: right;
+}
+
+
+input[type="submit"], input[type="reset"] {
+    padding: 15px 25px;
+    width: 45%;
+    height: 3em;
+    border-width: 2px;
+    border-radius: 5%;
+    border-color: green;
+}
+
+.btn-primary {
+    color: black;
+    background-color: #d6eadf;
+}
+
+.btn-secondary {
+    color:green;
+    background-color: white;
+}
+
+.btn-primary:hover{
+    background-color: orange;
+}
+
+.btn-secondary:hover{
+    background-color: orange;
+}
